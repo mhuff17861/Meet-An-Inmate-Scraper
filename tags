@@ -675,6 +675,7 @@ ConfigHandler	scraper/lib/python3.6/site-packages/setuptools/config.py	/^class C
 ConfigMetadataHandler	scraper/lib/python3.6/site-packages/setuptools/config.py	/^class ConfigMetadataHandler(ConfigHandler):$/;"	c
 ConfigOptionParser	scraper/lib/python3.6/site-packages/pip/_internal/cli/parser.py	/^class ConfigOptionParser(CustomOptionParser):$/;"	c
 ConfigOptionsHandler	scraper/lib/python3.6/site-packages/setuptools/config.py	/^class ConfigOptionsHandler(ConfigHandler):$/;"	c
+Configuration	scraper/lib/python3.6/site-packages/pdfkit/configuration.py	/^class Configuration(object):$/;"	c
 Configuration	scraper/lib/python3.6/site-packages/pip/_internal/configuration.py	/^class Configuration(object):$/;"	c
 ConfigurationCommand	scraper/lib/python3.6/site-packages/pip/_internal/commands/configuration.py	/^class ConfigurationCommand(Command):$/;"	c
 ConfigurationError	scraper/lib/python3.6/site-packages/pip/_internal/exceptions.py	/^class ConfigurationError(PipError):$/;"	c
@@ -1665,6 +1666,7 @@ ImportFrom	scraper/include/python3.6m/Python-ast.h	/^        } ImportFrom;$/;"	m
 ImportFrom	scraper/include/python3.6m/Python-ast.h	507;"	d
 ImportFrom_kind	scraper/include/python3.6m/Python-ast.h	/^                  Assert_kind=17, Import_kind=18, ImportFrom_kind=19,$/;"	e	enum:_stmt_kind
 Import_kind	scraper/include/python3.6m/Python-ast.h	/^                  Assert_kind=17, Import_kind=18, ImportFrom_kind=19,$/;"	e	enum:_stmt_kind
+ImproperSourceError	scraper/lib/python3.6/site-packages/pdfkit/pdfkit.py	/^    class ImproperSourceError(Exception):$/;"	c	class:PDFKit
 In	scraper/include/python3.6m/Python-ast.h	/^                      In=9, NotIn=10 } cmpop_ty;$/;"	e	enum:_cmpop
 InBodyPhase	scraper/lib/python3.6/site-packages/pip/_vendor/html5lib/html5parser.py	/^    class InBodyPhase(Phase):$/;"	c	function:getPhases
 InCaptionPhase	scraper/lib/python3.6/site-packages/pip/_vendor/html5lib/html5parser.py	/^    class InCaptionPhase(Phase):$/;"	c	function:getPhases
@@ -2661,6 +2663,7 @@ PAX_NAME_FIELDS	scraper/lib/python3.6/site-packages/pip/_vendor/distlib/_backpor
 PAX_NAME_FIELDS	scraper/lib/python3.6/tarfile.py	/^PAX_NAME_FIELDS = {"path", "linkpath", "uname", "gname"}$/;"	v
 PAX_NUMBER_FIELDS	scraper/lib/python3.6/site-packages/pip/_vendor/distlib/_backport/tarfile.py	/^PAX_NUMBER_FIELDS = {$/;"	v
 PAX_NUMBER_FIELDS	scraper/lib/python3.6/tarfile.py	/^PAX_NUMBER_FIELDS = {$/;"	v
+PDFKit	scraper/lib/python3.6/site-packages/pdfkit/pdfkit.py	/^class PDFKit(object):$/;"	c
 PEP420PackageFinder	scraper/lib/python3.6/site-packages/setuptools/__init__.py	/^class PEP420PackageFinder(PackageFinder):$/;"	c
 PEP440Warning	scraper/lib/python3.6/site-packages/pip/_vendor/pkg_resources/__init__.py	/^class PEP440Warning(RuntimeWarning):$/;"	c
 PEP440Warning	scraper/lib/python3.6/site-packages/pkg_resources/__init__.py	/^class PEP440Warning(RuntimeWarning):$/;"	c
@@ -4381,6 +4384,7 @@ SoupSieve	scraper/lib/python3.6/site-packages/soupsieve/__init__.py	/^SoupSieve 
 SoupSieve	scraper/lib/python3.6/site-packages/soupsieve/css_match.py	/^class SoupSieve(ct.Immutable):$/;"	c
 SoupStrainer	scraper/lib/python3.6/site-packages/bs4/element.py	/^class SoupStrainer(object):$/;"	c
 SoupTest	scraper/lib/python3.6/site-packages/bs4/testing.py	/^class SoupTest(unittest.TestCase):$/;"	c
+Source	scraper/lib/python3.6/site-packages/pdfkit/source.py	/^class Source(object):$/;"	c
 SourceDistribution	scraper/lib/python3.6/site-packages/pip/_internal/distributions/sdist.py	/^class SourceDistribution(AbstractDistribution):$/;"	c
 SourceFileLoader	scraper/lib/python3.6/importlib/_bootstrap_external.py	/^class SourceFileLoader(FileLoader, SourceLoader):$/;"	c
 SourceLoader	scraper/lib/python3.6/importlib/_bootstrap_external.py	/^class SourceLoader(_LoaderBasics):$/;"	c
@@ -5986,6 +5990,7 @@ __author__	scraper/lib/python3.6/site-packages/bs4/__init__.py	/^__author__ = "L
 __author__	scraper/lib/python3.6/site-packages/httplib2/__init__.py	/^    __author__ = "Thomas Broyer (t.broyer@ltgt.net)"$/;"	v	class:HmacDigestAuthentication
 __author__	scraper/lib/python3.6/site-packages/httplib2/__init__.py	/^__author__ = "Joe Gregorio (joe@bitworking.org)"$/;"	v
 __author__	scraper/lib/python3.6/site-packages/httplib2/iri2uri.py	/^__author__ = "Joe Gregorio (joe@bitworking.org)"$/;"	v
+__author__	scraper/lib/python3.6/site-packages/pdfkit/__init__.py	/^__author__ = 'Golovanov Stanislav'$/;"	v
 __author__	scraper/lib/python3.6/site-packages/pip/_vendor/cachecontrol/__init__.py	/^__author__ = "Eric Larson"$/;"	v
 __author__	scraper/lib/python3.6/site-packages/pip/_vendor/distlib/_backport/tarfile.py	/^__author__  = "Lars Gust\\u00e4bel (lars@gustaebel.de)"$/;"	v
 __author__	scraper/lib/python3.6/site-packages/pip/_vendor/packaging/__about__.py	/^__author__ = "Donald Stufft and individual contributors"$/;"	v
@@ -6686,6 +6691,10 @@ __init__	scraper/lib/python3.6/site-packages/httplib2/__init__.py	/^    def __in
 __init__	scraper/lib/python3.6/site-packages/httplib2/__init__.py	/^    def __init__(self, host, port=None, timeout=None, proxy_info=None):$/;"	m	class:HTTPConnectionWithTimeout
 __init__	scraper/lib/python3.6/site-packages/httplib2/__init__.py	/^    def __init__(self, info):$/;"	m	class:Response
 __init__	scraper/lib/python3.6/site-packages/httplib2/socks.py	/^    def __init__($/;"	m	class:socksocket
+__init__	scraper/lib/python3.6/site-packages/pdfkit/configuration.py	/^    def __init__(self, wkhtmltopdf='', meta_tag_prefix='pdfkit-'):$/;"	m	class:Configuration
+__init__	scraper/lib/python3.6/site-packages/pdfkit/pdfkit.py	/^        def __init__(self, msg):$/;"	m	class:PDFKit.ImproperSourceError
+__init__	scraper/lib/python3.6/site-packages/pdfkit/pdfkit.py	/^    def __init__(self, url_or_file, type_, options=None, toc=None, cover=None,$/;"	m	class:PDFKit
+__init__	scraper/lib/python3.6/site-packages/pdfkit/source.py	/^    def __init__(self, url_or_file, type_):$/;"	m	class:Source
 __init__	scraper/lib/python3.6/site-packages/pip/_internal/build_env.py	/^    def __init__(self):$/;"	m	class:BuildEnvironment
 __init__	scraper/lib/python3.6/site-packages/pip/_internal/build_env.py	/^    def __init__(self):$/;"	m	class:NoOpBuildEnvironment
 __init__	scraper/lib/python3.6/site-packages/pip/_internal/build_env.py	/^    def __init__(self, path):$/;"	m	class:_Prefix
@@ -7508,6 +7517,7 @@ __license__	scraper/lib/python3.6/site-packages/bs4/element.py	/^__license__ = "
 __license__	scraper/lib/python3.6/site-packages/bs4/testing.py	/^__license__ = "MIT"$/;"	v
 __license__	scraper/lib/python3.6/site-packages/httplib2/__init__.py	/^__license__ = "MIT"$/;"	v
 __license__	scraper/lib/python3.6/site-packages/httplib2/iri2uri.py	/^__license__ = "MIT"$/;"	v
+__license__	scraper/lib/python3.6/site-packages/pdfkit/__init__.py	/^__license__ = 'MIT'$/;"	v
 __license__	scraper/lib/python3.6/site-packages/pip/_vendor/packaging/__about__.py	/^__license__ = "BSD or Apache License, Version 2.0"$/;"	v
 __license__	scraper/lib/python3.6/site-packages/pip/_vendor/requests/__version__.py	/^__license__ = 'Apache 2.0'$/;"	v
 __license__	scraper/lib/python3.6/site-packages/pip/_vendor/urllib3/__init__.py	/^__license__ = "MIT"$/;"	v
@@ -8027,6 +8037,7 @@ __str__	scraper/lib/python3.6/enum.py	/^    def __str__(self):$/;"	m	class:Enum	
 __str__	scraper/lib/python3.6/enum.py	/^    def __str__(self):$/;"	m	class:Flag	file:
 __str__	scraper/lib/python3.6/site-packages/bs4/element.py	/^    def __str__(self):$/;"	m	class:SoupStrainer	file:
 __str__	scraper/lib/python3.6/site-packages/bs4/element.py	/^    def __str__(self):$/;"	m	class:Tag	file:
+__str__	scraper/lib/python3.6/site-packages/pdfkit/pdfkit.py	/^        def __str__(self):$/;"	m	class:PDFKit.ImproperSourceError	file:
 __str__	scraper/lib/python3.6/site-packages/pip/_internal/exceptions.py	/^    def __str__(self):$/;"	m	class:ConfigurationFileCouldNotBeLoaded	file:
 __str__	scraper/lib/python3.6/site-packages/pip/_internal/exceptions.py	/^    def __str__(self):$/;"	m	class:HashError	file:
 __str__	scraper/lib/python3.6/site-packages/pip/_internal/exceptions.py	/^    def __str__(self):$/;"	m	class:HashErrors	file:
@@ -8207,6 +8218,7 @@ __version__	scraper/lib/python3.6/re.py	/^__version__ = "2.2.1"$/;"	v
 __version__	scraper/lib/python3.6/site-packages/bs4/__init__.py	/^__version__ = "4.8.2"$/;"	v
 __version__	scraper/lib/python3.6/site-packages/httplib2/__init__.py	/^__version__ = '0.17.0'$/;"	v
 __version__	scraper/lib/python3.6/site-packages/httplib2/iri2uri.py	/^__version__ = "1.0.0"$/;"	v
+__version__	scraper/lib/python3.6/site-packages/pdfkit/__init__.py	/^__version__ = '0.6.1'$/;"	v
 __version__	scraper/lib/python3.6/site-packages/pip/__init__.py	/^__version__ = "20.0.2"$/;"	v
 __version__	scraper/lib/python3.6/site-packages/pip/_vendor/appdirs.py	/^__version__ = '.'.join(map(str, __version_info__))$/;"	v
 __version__	scraper/lib/python3.6/site-packages/pip/_vendor/cachecontrol/__init__.py	/^__version__ = "0.12.6"$/;"	v
@@ -8530,6 +8542,7 @@ _collapse_addresses_internal	scraper/lib/python3.6/site-packages/pip/_vendor/ipa
 _collect_zipimporter_cache_entries	scraper/lib/python3.6/site-packages/setuptools/command/easy_install.py	/^def _collect_zipimporter_cache_entries(normalized_path, cache):$/;"	f
 _color_wrap	scraper/lib/python3.6/site-packages/pip/_internal/utils/logging.py	/^def _color_wrap(*colors):$/;"	f
 _combining_class	scraper/lib/python3.6/site-packages/pip/_vendor/idna/core.py	/^def _combining_class(cp):$/;"	f
+_command	scraper/lib/python3.6/site-packages/pdfkit/pdfkit.py	/^    def _command(self, path=None):$/;"	m	class:PDFKit
 _commasepitem	scraper/lib/python3.6/site-packages/pip/_vendor/pyparsing.py	/^    _commasepitem = Combine(OneOrMore(~Literal(",")$/;"	v	class:pyparsing_common
 _commasepitem	scraper/lib/python3.6/site-packages/pip/_vendor/pyparsing.py	/^_commasepitem = Combine(OneOrMore(Word(printables, excludeChars=',')$/;"	v
 _commasepitem	scraper/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py	/^    _commasepitem = Combine(OneOrMore(~Literal(",") + ~LineEnd() + Word(printables, excludeChars=',') $/;"	v	class:pyparsing_common
@@ -8884,6 +8897,7 @@ _find_name_version_sep	scraper/lib/python3.6/site-packages/pip/_internal/index/p
 _find_new_	scraper/lib/python3.6/enum.py	/^    def _find_new_(classdict, member_type, first_enum):$/;"	m	class:EnumMeta
 _find_no_duplicates	scraper/lib/python3.6/site-packages/pip/_vendor/requests/cookies.py	/^    def _find_no_duplicates(self, name, domain=None, path=None):$/;"	m	class:RequestsCookieJar
 _find_one	scraper/lib/python3.6/site-packages/bs4/element.py	/^    def _find_one(self, method, name, attrs, text, **kwargs):$/;"	m	class:PageElement
+_find_options_in_meta	scraper/lib/python3.6/site-packages/pdfkit/pdfkit.py	/^    def _find_options_in_meta(self, content):$/;"	m	class:PDFKit
 _find_packages_iter	scraper/lib/python3.6/site-packages/setuptools/__init__.py	/^    def _find_packages_iter(cls, where, exclude, include):$/;"	m	class:PackageFinder
 _find_parent_path_names	scraper/lib/python3.6/importlib/_bootstrap_external.py	/^    def _find_parent_path_names(self):$/;"	m	class:_NamespacePath
 _find_spec	scraper/lib/python3.6/importlib/_bootstrap.py	/^def _find_spec(name, path, target=None):$/;"	f
@@ -8964,6 +8978,7 @@ _ge_from_le	scraper/lib/python3.6/functools.py	/^def _ge_from_le(self, other, No
 _ge_from_lt	scraper/lib/python3.6/functools.py	/^def _ge_from_lt(self, other, NotImplemented=NotImplemented):$/;"	f
 _gen_exclusion_paths	scraper/lib/python3.6/site-packages/setuptools/command/install_lib.py	/^    def _gen_exclusion_paths():$/;"	m	class:install_lib
 _gen_nspkg_line	scraper/lib/python3.6/site-packages/setuptools/namespaces.py	/^    def _gen_nspkg_line(self, pkg):$/;"	m	class:Installer
+_genargs	scraper/lib/python3.6/site-packages/pdfkit/pdfkit.py	/^    def _genargs(self, opts):$/;"	m	class:PDFKit
 _generalerrors	scraper/lib/python3.6/site-packages/httplib2/socks.py	/^_generalerrors = ($/;"	v
 _generate_cache	scraper/lib/python3.6/site-packages/pip/_vendor/distlib/database.py	/^    def _generate_cache(self):$/;"	m	class:DistributionPath
 _generate_metadata	scraper/lib/python3.6/site-packages/pip/_internal/req/req_install.py	/^    def _generate_metadata(self):$/;"	m	class:InstallRequirement
@@ -9555,6 +9570,7 @@ _no_global_under_venv	scraper/lib/python3.6/site-packages/pip/_internal/utils/vi
 _no_parser_specified	scraper/lib/python3.6/site-packages/bs4/tests/test_soup.py	/^    def _no_parser_specified(self, s, is_there=True):$/;"	m	class:TestWarnings
 _node	scraper/include/python3.6m/node.h	/^typedef struct _node {$/;"	s
 _nop	scraper/lib/python3.6/shutil.py	/^    def _nop(*args, ns=None, follow_symlinks=None):$/;"	f	function:copystat
+_normalize_arg	scraper/lib/python3.6/site-packages/pdfkit/pdfkit.py	/^    def _normalize_arg(self, arg):$/;"	m	class:PDFKit
 _normalize_cached	scraper/lib/python3.6/site-packages/pip/_vendor/pkg_resources/__init__.py	/^def _normalize_cached(filename, _cache={}):$/;"	f
 _normalize_cached	scraper/lib/python3.6/site-packages/pkg_resources/__init__.py	/^def _normalize_cached(filename, _cache={}):$/;"	f
 _normalize_headers	scraper/lib/python3.6/site-packages/httplib2/__init__.py	/^    def _normalize_headers(self, headers):$/;"	m	class:Http
@@ -9562,6 +9578,7 @@ _normalize_headers	scraper/lib/python3.6/site-packages/httplib2/__init__.py	/^de
 _normalize_host	scraper/lib/python3.6/site-packages/pip/_vendor/urllib3/connectionpool.py	/^def _normalize_host(host, scheme):$/;"	f
 _normalize_host	scraper/lib/python3.6/site-packages/pip/_vendor/urllib3/util/url.py	/^def _normalize_host(host, scheme):$/;"	f
 _normalize_name	scraper/lib/python3.6/site-packages/pip/_internal/configuration.py	/^def _normalize_name(name):$/;"	f
+_normalize_options	scraper/lib/python3.6/site-packages/pdfkit/pdfkit.py	/^    def _normalize_options(self, options):$/;"	m	class:PDFKit
 _normalize_search_value	scraper/lib/python3.6/site-packages/bs4/element.py	/^    def _normalize_search_value(self, value):$/;"	m	class:SoupStrainer
 _normalize_string	scraper/lib/python3.6/site-packages/pip/_vendor/packaging/tags.py	/^def _normalize_string(string):$/;"	f
 _normalize_string	scraper/lib/python3.6/site-packages/setuptools/_vendor/packaging/tags.py	/^def _normalize_string(string):$/;"	f
@@ -9730,6 +9747,7 @@ _prepare_download	scraper/lib/python3.6/site-packages/pip/_internal/network/down
 _prepare_proxy	scraper/lib/python3.6/site-packages/pip/_vendor/urllib3/connectionpool.py	/^    def _prepare_proxy(self, conn):$/;"	m	class:HTTPConnectionPool
 _prepare_proxy	scraper/lib/python3.6/site-packages/pip/_vendor/urllib3/connectionpool.py	/^    def _prepare_proxy(self, conn):$/;"	m	class:HTTPSConnectionPool
 _prepare_threads	scraper/lib/python3.6/site-packages/pip/_vendor/distlib/locators.py	/^    def _prepare_threads(self):$/;"	m	class:SimpleScrapingLocator
+_prepend_css	scraper/lib/python3.6/site-packages/pdfkit/pdfkit.py	/^    def _prepend_css(self, path):$/;"	m	class:PDFKit
 _preserve_36_ABI_1	scraper/include/python3.6m/pystate.h	/^    Py_ssize_t _preserve_36_ABI_1;$/;"	m	struct:_ts
 _preserve_36_ABI_2	scraper/include/python3.6m/pystate.h	/^    freefunc _preserve_36_ABI_2[MAX_CO_EXTRA_USERS];$/;"	m	struct:_ts
 _print	scraper/lib/python3.6/site-packages/pip/_vendor/six.py	/^    _print = print_$/;"	v
@@ -10155,6 +10173,7 @@ _strip_extras	scraper/lib/python3.6/site-packages/pip/_internal/req/constructors
 _strip_padding	scraper/lib/python3.6/locale.py	/^def _strip_padding(s, amount):$/;"	f
 _strip_quotes	scraper/lib/python3.6/site-packages/setuptools/command/easy_install.py	/^    def _strip_quotes(item):$/;"	m	class:CommandSpec
 _strxfrm	scraper/lib/python3.6/locale.py	/^def _strxfrm(s):$/;"	f
+_style_tag_for	scraper/lib/python3.6/site-packages/pdfkit/pdfkit.py	/^    def _style_tag_for(self, stylesheet):$/;"	m	class:PDFKit
 _sub_ms_char	scraper/lib/python3.6/site-packages/bs4/dammit.py	/^    def _sub_ms_char(self, match):$/;"	m	class:UnicodeDammit
 _subdirectory_fragment_re	scraper/lib/python3.6/site-packages/pip/_internal/models/link.py	/^    _subdirectory_fragment_re = re.compile(r'[#&]subdirectory=([^&]*)')$/;"	v	class:Link
 _subs	scraper/lib/python3.6/site-packages/pip/_vendor/urllib3/util/url.py	/^_subs = {"hex": HEX_PAT, "ls32": LS32_PAT}$/;"	v
@@ -10810,6 +10829,7 @@ basename	scraper/lib/python3.6/ntpath.py	/^def basename(p):$/;"	f
 basename	scraper/lib/python3.6/posixpath.py	/^def basename(p):$/;"	f
 bases	scraper/include/python3.6m/Python-ast.h	/^            asdl_seq *bases;$/;"	m	struct:_stmt::__anon86::__anon89
 basestring	scraper/lib/python3.6/distutils/__init__.py	/^    basestring = str$/;"	v
+basestring	scraper/lib/python3.6/site-packages/pdfkit/pdfkit.py	/^    basestring = str$/;"	v
 basestring	scraper/lib/python3.6/site-packages/pip/_vendor/requests/compat.py	/^    basestring = (str, bytes)$/;"	v
 basestring	scraper/lib/python3.6/site-packages/pip/_vendor/requests/compat.py	/^    basestring = basestring$/;"	v
 basestring	scraper/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py	/^    basestring = str$/;"	v
@@ -11161,6 +11181,7 @@ charset_name	scraper/lib/python3.6/site-packages/pip/_vendor/chardet/utf8prober.
 chdir	scraper/lib/python3.6/site-packages/pip/_vendor/distlib/util.py	/^def chdir(d):$/;"	f
 check	scraper/lib/python3.6/site-packages/pip/_vendor/distlib/metadata.py	/^    def check(self, strict=False):$/;"	m	class:LegacyMetadata
 check	scraper/lib/python3.6/site-packages/pip/_vendor/pep517/check.py	/^def check(source_dir):$/;"	f
+checkFiles	scraper/lib/python3.6/site-packages/pdfkit/source.py	/^    def checkFiles(self):$/;"	m	class:Source
 checkPeerIndent	scraper/lib/python3.6/site-packages/pip/_vendor/pyparsing.py	/^    def checkPeerIndent(s, l, t):$/;"	f	function:indentedBlock
 checkPeerIndent	scraper/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py	/^    def checkPeerIndent(s,l,t):$/;"	f	function:indentedBlock
 checkPeerIndent	scraper/lib/python3.6/site-packages/setuptools/_vendor/pyparsing.py	/^    def checkPeerIndent(s,l,t):$/;"	f	function:indentedBlock
@@ -11578,6 +11599,7 @@ commaSeparatedList	scraper/lib/python3.6/site-packages/setuptools/_vendor/pypars
 comma_separated_list	scraper/lib/python3.6/site-packages/pip/_vendor/pyparsing.py	/^    comma_separated_list = delimitedList(Optional(quotedString.copy()$/;"	v	class:pyparsing_common
 comma_separated_list	scraper/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py	/^    comma_separated_list = delimitedList( Optional( quotedString.copy() | _commasepitem, default="") ).setName("comma separated list")$/;"	v	class:pyparsing_common
 comma_separated_list	scraper/lib/python3.6/site-packages/setuptools/_vendor/pyparsing.py	/^    comma_separated_list = delimitedList( Optional( quotedString.copy() | _commasepitem, default="") ).setName("comma separated list")$/;"	v	class:pyparsing_common
+command	scraper/lib/python3.6/site-packages/pdfkit/pdfkit.py	/^    def command(self, path=None):$/;"	m	class:PDFKit
 command_consumes_arguments	scraper/lib/python3.6/site-packages/setuptools/__init__.py	/^    command_consumes_arguments = False$/;"	v	class:Command
 command_consumes_arguments	scraper/lib/python3.6/site-packages/setuptools/command/alias.py	/^    command_consumes_arguments = True$/;"	v	class:alias
 command_consumes_arguments	scraper/lib/python3.6/site-packages/setuptools/command/develop.py	/^    command_consumes_arguments = False  # override base$/;"	v	class:develop
@@ -11649,6 +11671,7 @@ conditionAsParseAction	scraper/lib/python3.6/site-packages/pip/_vendor/pyparsing
 conditional_headers	scraper/lib/python3.6/site-packages/pip/_vendor/cachecontrol/controller.py	/^    def conditional_headers(self, request):$/;"	m	class:CacheController
 config_file	scraper/lib/python3.6/site-packages/setuptools/command/setopt.py	/^def config_file(kind="local"):$/;"	f
 config_handler	scraper/lib/python3.6/site-packages/setuptools/config.py	/^        def config_handler(*args, **kwargs):$/;"	f	function:ConfigHandler._deprecated_config_handler
+configuration	scraper/lib/python3.6/site-packages/pdfkit/api.py	/^def configuration(**kwargs):$/;"	f
 configuration_to_dict	scraper/lib/python3.6/site-packages/setuptools/config.py	/^def configuration_to_dict(handlers):$/;"	f
 configure_custom	scraper/lib/python3.6/site-packages/pip/_vendor/distlib/compat.py	/^        def configure_custom(self, config):$/;"	m	class:BaseConfigurator
 configure_custom	scraper/lib/python3.6/site-packages/pip/_vendor/distlib/util.py	/^    def configure_custom(self, config):$/;"	m	class:Configurator
@@ -12476,6 +12499,7 @@ digits	scraper/lib/python3.6/encodings/punycode.py	/^digits = b"abcdefghijklmnop
 digits	scraper/lib/python3.6/site-packages/pip/_vendor/html5lib/constants.py	/^digits = frozenset(string.digits)$/;"	v
 dims	scraper/include/python3.6m/Python-ast.h	/^            asdl_seq *dims;$/;"	m	struct:_slice::__anon139::__anon141
 dir_to_zipfile	scraper/lib/python3.6/site-packages/pip/_vendor/pep517/dirtools.py	/^def dir_to_zipfile(root):$/;"	f
+directoryList	profile-to-pdf.py	/^directoryList = ["18women\/", "50women\/", "18men\/", "50men\/"]$/;"	v
 dirname	scraper/lib/python3.6/distutils/__init__.py	/^dirname = os.path.dirname$/;"	v
 dirname	scraper/lib/python3.6/ntpath.py	/^def dirname(p):$/;"	f
 dirname	scraper/lib/python3.6/posixpath.py	/^def dirname(p):$/;"	f
@@ -13677,6 +13701,7 @@ from_dict	scraper/lib/python3.6/site-packages/pip/_vendor/pyparsing.py	/^    def
 from_dist	scraper/lib/python3.6/site-packages/pip/_internal/operations/freeze.py	/^    def from_dist(cls, dist):$/;"	m	class:FrozenRequirement
 from_dist	scraper/lib/python3.6/site-packages/pip/_internal/req/req_uninstall.py	/^    def from_dist(cls, dist):$/;"	m	class:UninstallPathSet
 from_environment	scraper/lib/python3.6/site-packages/setuptools/command/easy_install.py	/^    def from_environment(cls):$/;"	m	class:CommandSpec
+from_file	scraper/lib/python3.6/site-packages/pdfkit/api.py	/^def from_file(input, output_path, options=None, toc=None, cover=None, css=None,$/;"	f
 from_filename	scraper/lib/python3.6/site-packages/pip/_vendor/pkg_resources/__init__.py	/^    def from_filename(cls, filename, metadata=None, **kw):$/;"	m	class:Distribution
 from_filename	scraper/lib/python3.6/site-packages/pkg_resources/__init__.py	/^    def from_filename(cls, filename, metadata=None, **kw):$/;"	m	class:Distribution
 from_float	scraper/lib/python3.6/site-packages/pip/_vendor/urllib3/util/timeout.py	/^    def from_float(cls, timeout):$/;"	m	class:Timeout
@@ -13691,8 +13716,10 @@ from_path	scraper/lib/python3.6/site-packages/pip/_internal/operations/prepare.p
 from_path	scraper/lib/python3.6/site-packages/pip/_internal/operations/prepare.py	/^        from_path = link_path$/;"	v
 from_path	scraper/lib/python3.6/site-packages/pip/_internal/req/req_install.py	/^    def from_path(self):$/;"	m	class:InstallRequirement
 from_stream	scraper/lib/python3.6/site-packages/pip/_internal/utils/misc.py	/^    def from_stream(cls, orig_stream):$/;"	m	class:StreamWrapper
+from_string	scraper/lib/python3.6/site-packages/pdfkit/api.py	/^def from_string(input, output_path, options=None, toc=None, cover=None, css=None,$/;"	f
 from_string	scraper/lib/python3.6/site-packages/setuptools/command/easy_install.py	/^    def from_string(cls, string):$/;"	m	class:CommandSpec
 from_tuples	scraper/lib/python3.6/site-packages/pip/_vendor/urllib3/fields.py	/^    def from_tuples(cls, fieldname, value, header_formatter=format_header_param_html5):$/;"	m	class:RequestField
+from_url	scraper/lib/python3.6/site-packages/pdfkit/api.py	/^def from_url(url, output_path, options=None, toc=None, cover=None,$/;"	f
 from_url	scraper/lib/python3.6/site-packages/setuptools/package_index.py	/^    def from_url(cls, url):$/;"	m	class:HashChecker
 frombuf	scraper/lib/python3.6/site-packages/pip/_vendor/distlib/_backport/tarfile.py	/^    def frombuf(cls, buf, encoding, errors):$/;"	m	class:TarInfo
 frombuf	scraper/lib/python3.6/tarfile.py	/^    def frombuf(cls, buf, encoding, errors):$/;"	m	class:TarInfo
@@ -13715,6 +13742,7 @@ fsencode	scraper/lib/python3.6/site-packages/pip/_vendor/distlib/_backport/misc.
 fsencode	scraper/lib/python3.6/site-packages/pip/_vendor/distlib/compat.py	/^    def fsencode(filename):$/;"	f
 fsencode	scraper/lib/python3.6/site-packages/pip/_vendor/distlib/compat.py	/^    fsencode = os.fsencode$/;"	v
 fspath	scraper/lib/python3.6/os.py	/^    fspath = _fspath$/;"	v
+fullList	profile-to-pdf.py	/^fullList = [line.rstrip('\\n') for line in open("uniquelinks.txt")]$/;"	v
 fullTree	scraper/lib/python3.6/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py	/^fullTree = True$/;"	v
 full_name	scraper/lib/python3.6/site-packages/setuptools/depends.py	/^    def full_name(self):$/;"	m	class:Require
 full_tag	scraper/lib/python3.6/site-packages/wheel/cli/convert.py	/^    full_tag = None  # None or a (pytag, soabitag, plattag) triple$/;"	v	class:_bdist_wheel_tag
@@ -14842,6 +14870,7 @@ increment	scraper/lib/python3.6/site-packages/pip/_vendor/urllib3/util/retry.py	
 incrementaldecoder	scraper/lib/python3.6/site-packages/pip/_vendor/webencodings/x_user_defined.py	/^    incrementaldecoder=IncrementalDecoder,$/;"	v	class:StreamReader
 incrementalencoder	scraper/lib/python3.6/site-packages/pip/_vendor/webencodings/x_user_defined.py	/^    incrementalencoder=IncrementalEncoder,$/;"	v	class:StreamReader
 incrementing_sleep	scraper/lib/python3.6/site-packages/pip/_vendor/retrying.py	/^    def incrementing_sleep(self, previous_attempt_number, delay_since_first_attempt_ms):$/;"	m	class:Retrying
+indSplit	profile-to-pdf.py	/^indSplit = []$/;"	v
 indent_lines	scraper/lib/python3.6/site-packages/pip/_internal/cli/parser.py	/^    def indent_lines(self, text, indent):$/;"	m	class:PrettyHelpFormatter
 indent_log	scraper/lib/python3.6/site-packages/pip/_internal/utils/logging.py	/^def indent_log(num=2):$/;"	f
 indentedBlock	scraper/lib/python3.6/site-packages/pip/_vendor/pyparsing.py	/^def indentedBlock(blockStatementExpr, indentStack, indent=True):$/;"	f
@@ -15092,11 +15121,15 @@ ipv6_address	scraper/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing
 ipv6_address	scraper/lib/python3.6/site-packages/setuptools/_vendor/pyparsing.py	/^    ipv6_address = Combine((_full_ipv6_address | _mixed_ipv6_address | _short_ipv6_address).setName("IPv6 address")).setName("IPv6 address")$/;"	v	class:pyparsing_common
 iri2uri	scraper/lib/python3.6/site-packages/httplib2/iri2uri.py	/^def iri2uri(uri):$/;"	f
 irshift	scraper/lib/python3.6/operator.py	/^def irshift(a, b):$/;"	f
+isFile	scraper/lib/python3.6/site-packages/pdfkit/source.py	/^    def isFile(self, path=None):$/;"	m	class:Source
+isFileObj	scraper/lib/python3.6/site-packages/pdfkit/source.py	/^    def isFileObj(self):$/;"	m	class:Source
 isHTMLIntegrationPoint	scraper/lib/python3.6/site-packages/pip/_vendor/html5lib/html5parser.py	/^    def isHTMLIntegrationPoint(self, element):$/;"	m	class:HTMLParser
 isMatchingFormattingElement	scraper/lib/python3.6/site-packages/pip/_vendor/html5lib/html5parser.py	/^        def isMatchingFormattingElement(self, node1, node2):$/;"	m	class:getPhases.InBodyPhase
 isMathMLTextIntegrationPoint	scraper/lib/python3.6/site-packages/pip/_vendor/html5lib/html5parser.py	/^    def isMathMLTextIntegrationPoint(self, element):$/;"	m	class:HTMLParser
 isSelfClosing	scraper/lib/python3.6/site-packages/bs4/element.py	/^    isSelfClosing = is_empty_element  # BS3$/;"	v	class:Tag
+isString	scraper/lib/python3.6/site-packages/pdfkit/source.py	/^    def isString(self):$/;"	m	class:Source
 isSurrogatePair	scraper/lib/python3.6/site-packages/pip/_vendor/html5lib/_utils.py	/^def isSurrogatePair(data):$/;"	f
+isUrl	scraper/lib/python3.6/site-packages/pdfkit/source.py	/^    def isUrl(self):$/;"	m	class:Source
 is_	scraper/lib/python3.6/operator.py	/^def is_(a, b):$/;"	f
 is_64bit	scraper/lib/python3.6/site-packages/setuptools/command/easy_install.py	/^def is_64bit():$/;"	f
 is_appengine	scraper/lib/python3.6/site-packages/pip/_vendor/urllib3/contrib/_appengine_environ.py	/^def is_appengine():$/;"	f
@@ -15833,6 +15866,8 @@ lstrip	scraper/lib/python3.6/collections/__init__.py	/^    def lstrip(self, char
 lt	scraper/lib/python3.6/operator.py	/^def lt(a, b):$/;"	f
 lxml_trace	scraper/lib/python3.6/site-packages/bs4/diagnose.py	/^def lxml_trace(data, html=True, **kwargs):$/;"	f
 m	scraper/include/python3.6m/import.h	/^PyAPI_FUNC(PyObject *) PyImport_ReloadModule(PyObject *m);$/;"	v
+m18List	profile-to-pdf.py	/^m18List = fullList[indSplit[1]:indSplit[2]]$/;"	v
+m50List	profile-to-pdf.py	/^m50List = fullList[indSplit[2]:]$/;"	v
 m_base	scraper/include/python3.6m/moduleobject.h	/^  PyModuleDef_Base m_base;$/;"	m	struct:PyModuleDef
 m_clear	scraper/include/python3.6m/moduleobject.h	/^  inquiry m_clear;$/;"	m	struct:PyModuleDef
 m_copy	scraper/include/python3.6m/moduleobject.h	/^  PyObject* m_copy;$/;"	m	struct:PyModuleDef_Base
@@ -16604,6 +16639,7 @@ out	scraper/include/python3.6m/object.h	/^_PyObject_DebugTypeStats(FILE *out);$/
 out	scraper/include/python3.6m/objimpl.h	/^PyAPI_FUNC(void) _PyObject_DebugMallocStats(FILE *out);$/;"	v
 out	scraper/include/python3.6m/tupleobject.h	/^PyAPI_FUNC(void) _PyTuple_DebugMallocStats(FILE *out);$/;"	v
 outfile	profile-scrape.py	/^outfile = open("links.txt", "w")$/;"	v
+outputPDF	profile-to-pdf.py	/^def outputPDF(urlList, directory):$/;"	f
 output_package_listing	scraper/lib/python3.6/site-packages/pip/_internal/commands/list.py	/^    def output_package_listing(self, packages, options):$/;"	m	class:ListCommand
 output_package_listing_columns	scraper/lib/python3.6/site-packages/pip/_internal/commands/list.py	/^    def output_package_listing_columns(self, data, header):$/;"	m	class:ListCommand
 output_ready	scraper/lib/python3.6/site-packages/bs4/element.py	/^    def output_ready(self, formatter="minimal"):$/;"	m	class:NavigableString
@@ -18448,6 +18484,7 @@ split	scraper/lib/python3.6/re.py	/^def split(pattern, string, maxsplit=0, flags
 split	scraper/lib/python3.6/site-packages/pip/_vendor/pyparsing.py	/^    def split(self, instring, maxsplit=_MAX_INT, includeSeparators=False):$/;"	m	class:ParserElement
 split	scraper/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py	/^    def split(self, instring, maxsplit=_MAX_INT, includeSeparators=False):$/;"	m	class:ParserElement
 split	scraper/lib/python3.6/site-packages/setuptools/_vendor/pyparsing.py	/^    def split(self, instring, maxsplit=_MAX_INT, includeSeparators=False):$/;"	m	class:ParserElement
+splitLoc	profile-to-pdf.py	/^splitLoc = ["50+ ladies", "18-21 men", "50+ men"]$/;"	v
 split_args	scraper/lib/python3.6/site-packages/setuptools/command/easy_install.py	/^    split_args = dict()$/;"	v	class:CommandSpec
 split_args	scraper/lib/python3.6/site-packages/setuptools/command/easy_install.py	/^    split_args = dict(posix=False)$/;"	v	class:WindowsCommandSpec
 split_auth_from_netloc	scraper/lib/python3.6/site-packages/pip/_internal/utils/misc.py	/^def split_auth_from_netloc(netloc):$/;"	f
@@ -18790,6 +18827,7 @@ suffix	scraper/lib/python3.6/site-packages/pip/_vendor/progress/bar.py	/^    suf
 suggest	scraper/lib/python3.6/site-packages/pip/_vendor/distlib/version.py	/^    def suggest(self, s):$/;"	m	class:VersionScheme
 suite	scraper/include/python3.6m/graminit.h	51;"	d
 summarize_address_range	scraper/lib/python3.6/site-packages/pip/_vendor/ipaddress.py	/^def summarize_address_range(first, last):$/;"	f
+superList	profile-to-pdf.py	/^superList = [w18List, w50List, m18List, m50List]$/;"	v
 super_len	scraper/lib/python3.6/site-packages/pip/_vendor/requests/utils.py	/^def super_len(o):$/;"	f
 supernet	scraper/lib/python3.6/site-packages/pip/_vendor/ipaddress.py	/^    def supernet(self, prefixlen_diff=1, new_prefix=None):$/;"	m	class:_BaseNetwork
 supernet_of	scraper/lib/python3.6/site-packages/pip/_vendor/ipaddress.py	/^    def supernet_of(self, other):$/;"	m	class:_BaseNetwork
@@ -19414,8 +19452,10 @@ to_filename	scraper/lib/python3.6/site-packages/pkg_resources/__init__.py	/^def 
 to_genshi	scraper/lib/python3.6/site-packages/pip/_vendor/html5lib/treeadapters/genshi.py	/^def to_genshi(walker):$/;"	f
 to_key_val_list	scraper/lib/python3.6/site-packages/pip/_vendor/requests/utils.py	/^def to_key_val_list(value):$/;"	f
 to_native_string	scraper/lib/python3.6/site-packages/pip/_vendor/requests/_internal_utils.py	/^def to_native_string(string, encoding='ascii'):$/;"	f
+to_pdf	scraper/lib/python3.6/site-packages/pdfkit/pdfkit.py	/^    def to_pdf(self, path=None):$/;"	m	class:PDFKit
 to_posix	scraper/lib/python3.6/site-packages/pip/_vendor/distlib/wheel.py	/^    to_posix = lambda o: o$/;"	v
 to_posix	scraper/lib/python3.6/site-packages/pip/_vendor/distlib/wheel.py	/^    to_posix = lambda o: o.replace(os.sep, '\/')$/;"	v
+to_s	scraper/lib/python3.6/site-packages/pdfkit/source.py	/^    def to_s(self):$/;"	m	class:Source
 to_sax	scraper/lib/python3.6/site-packages/pip/_vendor/html5lib/treeadapters/sax.py	/^def to_sax(walker, handler):$/;"	f
 tobuf	scraper/lib/python3.6/site-packages/pip/_vendor/distlib/_backport/tarfile.py	/^    def tobuf(self, format=DEFAULT_FORMAT, encoding=ENCODING, errors="surrogateescape"):$/;"	m	class:TarInfo
 tobuf	scraper/lib/python3.6/tarfile.py	/^    def tobuf(self, format=DEFAULT_FORMAT, encoding=ENCODING, errors="surrogateescape"):$/;"	m	class:TarInfo
@@ -19993,6 +20033,8 @@ vs	scraper/lib/python3.6/site-packages/setuptools/msvc.py	/^    def vs(self):$/;
 vs_ver	scraper/lib/python3.6/site-packages/setuptools/msvc.py	/^    def vs_ver(self):$/;"	m	class:EnvironmentInfo
 vsnprintf	scraper/include/python3.6m/pyerrors.h	491;"	d
 vtags	scraper/lib/python3.6/site-packages/setuptools/command/egg_info.py	/^    vtags = property(tags)$/;"	v	class:InfoCommon
+w18List	profile-to-pdf.py	/^w18List = fullList[:indSplit[0]]$/;"	v
+w50List	profile-to-pdf.py	/^w50List = fullList[indSplit[0]:indSplit[1]]$/;"	v
 wait_for_read	scraper/lib/python3.6/site-packages/pip/_vendor/urllib3/util/wait.py	/^def wait_for_read(sock, timeout=None):$/;"	f
 wait_for_socket	scraper/lib/python3.6/site-packages/pip/_vendor/urllib3/util/wait.py	/^def wait_for_socket(*args, **kwargs):$/;"	f
 wait_for_write	scraper/lib/python3.6/site-packages/pip/_vendor/urllib3/util/wait.py	/^def wait_for_write(sock, timeout=None):$/;"	f
