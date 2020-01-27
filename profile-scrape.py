@@ -25,11 +25,15 @@ def getMaleProfileLinks(url, atttype, attval, file):
 
 outfile = open("links.txt", "w")
 
+outfile.write("18-23 ladies\n")
 getFemaleProfileLinks('http://www.meet-an-inmate.com/ladies/18-23.htm', 'id',
                 'table161', outfile)
+outfile.write("50+ ladies\n")
 getFemaleProfileLinks('http://www.meet-an-inmate.com/ladies/50-65-1.htm', 'id',
                 'table161', outfile)
+outfile.write("18-21 men\n")
 getMaleProfileLinks('http://www.meet-an-inmate.com/male/18-21.htm', 'style',
                 'height: 91px', outfile)
+outfile.write("50+ men\n")
 getMaleProfileLinks('http://www.meet-an-inmate.com/male/50-65.htm', 'class',
                 'auto-style171', outfile)
